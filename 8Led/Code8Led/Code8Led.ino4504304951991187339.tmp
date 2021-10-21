@@ -6,7 +6,7 @@ void setup()
 }
 void loop() {
   for (int i=0; i<8; i++)
-  {digitalWrite(led[i],0);// tắt 8 den led 
+  {digitalWrite(led[i],0;// tắt 8 den led 
   }
   delay(200);
   for (int i=0; i<8;i++)
