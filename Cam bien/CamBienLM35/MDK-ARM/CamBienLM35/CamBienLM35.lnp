@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"cambienlm35\startup_stm32f401xe.o"
+"cambienlm35\main.o"
+"cambienlm35\stm32f4xx_it.o"
+"cambienlm35\stm32f4xx_hal_msp.o"
+"cambienlm35\stm32f4xx_hal_adc.o"
+"cambienlm35\stm32f4xx_hal_adc_ex.o"
+"cambienlm35\stm32f4xx_ll_adc.o"
+"cambienlm35\stm32f4xx_hal_rcc.o"
+"cambienlm35\stm32f4xx_hal_rcc_ex.o"
+"cambienlm35\stm32f4xx_hal_flash.o"
+"cambienlm35\stm32f4xx_hal_flash_ex.o"
+"cambienlm35\stm32f4xx_hal_flash_ramfunc.o"
+"cambienlm35\stm32f4xx_hal_gpio.o"
+"cambienlm35\stm32f4xx_hal_dma_ex.o"
+"cambienlm35\stm32f4xx_hal_dma.o"
+"cambienlm35\stm32f4xx_hal_pwr.o"
+"cambienlm35\stm32f4xx_hal_pwr_ex.o"
+"cambienlm35\stm32f4xx_hal_cortex.o"
+"cambienlm35\stm32f4xx_hal.o"
+"cambienlm35\stm32f4xx_hal_exti.o"
+"cambienlm35\stm32f4xx_hal_tim.o"
+"cambienlm35\stm32f4xx_hal_tim_ex.o"
+"cambienlm35\system_stm32f4xx.o"
+--strict --scatter "CamBienLM35\CamBienLM35.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CamBienLM35.map" -o CamBienLM35\CamBienLM35.axf
